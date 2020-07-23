@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.logo-content {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 60rem;
+  margin: auto;
+  animation: fluffy 2s ease-in-out infinite;
+}
+
+.left-content {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  animation: fade-in-left 2s ease-in-out infinite;
+}
+
+.right-content {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 100%;
+  height: 80%;
+  animation: fade-in-right 2s ease-in-out infinite;
+}
+
+.logo-img {
+  width: 40%;
+  height: 40%;
+}
+
+.maccho-micronn-img,
+.maccho-kkzun-img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fluffy {
+  0%,
+  100% {
+    transform: translateY(-2rem);
+  }
+
+  50% {
+    transform: translateY(2rem);
+  }
+}
+
+@keyframes fade-in-left {
+  0%,
+  100% {
+    transform: translateX(-130%);
+  }
+
+  50% {
+    transform: translateX(30%);
+  }
+}
+
+@keyframes fade-in-right {
+  0%,
+  100% {
+    transform: translateX(130%);
+  }
+
+  50% {
+    transform: translateX(-30%);
+  }
+}
