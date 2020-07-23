@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.container {
+  overflow: hidden;
+}
+
 .main-container {
   position: relative;
   width: 100%;
