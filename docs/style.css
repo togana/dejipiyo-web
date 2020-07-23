@@ -13,7 +13,7 @@
 
 .logo-content {
   position: absolute;
-  top: 20%;
+  top: 0;
   right: 0;
   left: 0;
   display: flex;
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   max-width: 60rem;
-  margin: auto;
+  height: 90%;
   animation: fluffy 2s ease-in-out infinite;
 }
 
@@ -45,7 +45,6 @@
 
 .logo-img {
   width: 40%;
-  height: 40%;
 }
 
 .maccho-micronn-img,
