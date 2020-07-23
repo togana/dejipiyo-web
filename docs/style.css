@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-.none {
-  display: none;
-}
-
 .main-container {
   position: relative;
   width: 100%;
@@ -41,6 +37,7 @@
   justify-content: center;
   max-width: 60rem;
   height: 90%;
+  margin: auto;
   animation: fluffy 2s ease-in-out infinite;
 }
 
